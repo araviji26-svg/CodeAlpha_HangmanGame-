@@ -1,7 +1,5 @@
 import random
-
 word_list = ["python", "programming", "developer", "computer", "algorithm", "sequence"]
-
 secret_word = random.choice(word_list)
 word_display = ["_"] * len(secret_word)
 attempts_left = 6
